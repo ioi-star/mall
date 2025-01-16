@@ -1,0 +1,162 @@
+/* @font-face {
+    font-family: 'usa';
+    src: url(../public/font/PlaywriteAUSA-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: 'Dip';
+    src: url(../public/font/Diphylleia-Regular.ttf);
+} */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+body {
+    background-color: #c9d1e0;
+    /* color: #000000; */
+}
+
+
+header .logoin {
+    width: 100px;
+    cursor: pointer;
+    text-align: center;
+    padding: 10px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 24px 0;
+}
+
+.nav {
+    position: relative;
+    background-color: #000000e7;
+    color: #fff;
+    margin-top: 40px;
+}
+
+.nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0 32px;
+    padding: 8px 0;
+}
+
+.nav .search {
+    position: absolute;
+    right: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.contents {
+    max-width: 1600px;
+    padding: 42px 24px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+
+.contents img {
+    border: 1px solid #000;
+    border-radius: 5px;
+    width: 95%;
+}
+
+.contents .box {
+    transition: 1s;
+}
+
+.contents .box:hover img {
+    scale: 1.1 1.1;
+}
+
+.contents h3 {
+    padding-top: 20px;
+}
+
+.contents .new {
+    color: red;
+    font-size: 12px;
+    padding-bottom: 10px;
+}
+
+.contents .size {
+    display: flex;
+    gap: 14px;
+}
+
+
+.idpw {
+    max-width: 700px;
+    margin: 100px auto;
+    background-color: #e5e8ec54;
+    padding: 40px 0;
+    text-align: center;
+}
+
+
+.productdtail {
+    padding: 0 1.5rem;
+    max-width: 1600px;
+    margin: 50px auto;
+    display: flex;
+    gap: 24px;
+}
+
+.productdtail>img {
+    width: 40%;
+    border: 1px solid #000;
+}
+
+.productdtail .title {
+    gap: 24px;
+}
+
+.productdtail .title h3{
+    font-size: 38px;
+}
+
+.productdtail .title .new{
+    color: red;
+}
+
+.productdtail .title h4{
+    font-size: 32px;
+    text-align: end;
+}
+
+.productdtail .size{
+    display: flex;
+    justify-content: flex-end;
+    gap: 24px;
+}
+
+.productdtail .size ul{
+    display: flex;
+    gap: 10px;
+}
+
+
